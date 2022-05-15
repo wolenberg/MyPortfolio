@@ -19,7 +19,7 @@
 }
 
 .bar{
-    background: #353b48;
+    background: #35483a;
     display: block;
     height: 20px;
     border: 1px solid rgba(0, 0, 0, 0.3);
@@ -36,21 +36,187 @@
 .bar span{
     height: 20px;
     float: left;
-    background: linear-gradient(135deg rgba(236,0,140,1)0%,rgba(252,103,103,1)100%);
+    background: #089961;
 
 }
 
 .powerapps{
-    width: 90%;
+    width: 85%;
     animation-name: powerapps;
     animation-duration: 3s;
 }
+
+.poweraut{
+    width: 75%;
+    animation-name: poweraut;
+    animation-duration: 3s;
+}
+
+.powerbi{
+    width: 33%;
+    animation-name: powerbi;
+    animation-duration: 3s;
+}
+
+.java{
+    width: 33%;
+    animation-name: java;
+    animation-duration: 3s;
+}
+
+.angular{
+    width: 25%;
+    animation-name: angular;
+    animation-duration: 3s;
+}
+
+.htmlcss{
+    width: 40%;
+    animation-name: htmlcss;
+    animation-duration: 3s;
+}
+
+.vba{
+    width: 95%;
+    animation-name: vba;
+    animation-duration: 3s;
+}
+
+.sql{
+    width: 65%;
+    animation-name: sql;
+    animation-duration: 3s;
+}
+
+.dotnet{
+    width: 15%;
+    animation-name: dotnet;
+    animation-duration: 3s;
+}
+
+.devops{
+    width: 55%;
+    animation-name: devops;
+    animation-duration: 3s;
+}
+
+.scrum{
+    width: 71%;
+    animation-name: scrum;
+    animation-duration: 3s;
+}
+
+.itil{
+    width: 44%;
+    animation-name: itil;
+    animation-duration: 3s;
+}
+
 
 @keyframes powerapps{
     0%{
         width: 0%;
     }
     100%{
-        width: 90%;
+        width: 85%;
+    }
+}
+
+@keyframes poweraut{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 75%;
+    }
+}
+
+@keyframes powerbi{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 33%;
+    }
+}
+
+@keyframes java{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 33%;
+    }
+}
+
+@keyframes angular{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 25%;
+    }
+}
+
+@keyframes htmlcss{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 40%;
+    }
+}
+
+@keyframes vba{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 95%;
+    }
+}
+
+@keyframes sql{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 65%;
+    }
+}
+
+@keyframes dotnet{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 15%;
+    }
+}
+
+@keyframes devops{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 55%;
+    }
+}
+
+@keyframes scrum{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 71%;
+    }
+}
+
+@keyframes itil{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 44%;
     }
 }
